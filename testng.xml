@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo Login Page Test Suite">
+
+	<test name="Yahoo Login Page Test Cases">
+		
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="http://login.yahoo.com"></parameter>
+		<parameter name="env" value="QA"></parameter>
+		<parameter name="username" value="test@yahoo.com"></parameter>
+		
+		<classes>
+			<class name="com.parameters.ParameterTest"></class>
+		</classes>
+	</test>
+</suite>

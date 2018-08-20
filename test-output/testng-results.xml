@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo Login Page Test Suite" duration-ms="14620" started-at="2018-08-19T14:33:39Z" finished-at="2018-08-19T14:33:54Z">
+    <groups>
+    </groups>
+    <test name="Yahoo Login Page Test Cases" duration-ms="14620" started-at="2018-08-19T14:33:39Z" finished-at="2018-08-19T14:33:54Z">
+      <class name="com.parameters.ParameterTest">
+        <test-method status="PASS" signature="YahooLoginPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.parameters.ParameterTest@61832929]" name="YahooLoginPageTest" duration-ms="14538" started-at="2018-08-19T18:33:39Z" finished-at="2018-08-19T18:33:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://login.yahoo.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YahooLoginPageTest -->
+      </class> <!-- com.parameters.ParameterTest -->
+    </test> <!-- Yahoo Login Page Test Cases -->
+  </suite> <!-- Yahoo Login Page Test Suite -->
+</testng-results>
